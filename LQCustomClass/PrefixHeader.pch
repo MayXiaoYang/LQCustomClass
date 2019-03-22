@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  LQCustomClass
+//
+//  Created by liang lee on 2019/3/22.
+//  Copyright © 2019年 li xiao yang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+LQFrame.h"
+#import <MJRefresh.h>
+#import "LLToast.h"
+#import <MBProgressHUD.h>
+/* 自定义打印，显示打印的行数**/
+#define NSLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])
+
+/** 屏幕的宽高 */
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define APPColor ColorWithRGB(165,194,57)
+
+//是否为空
+#define isKong(A) [NSString stringWithFormat:@"%@",A].length == 0 || [A rangeOfString:@"null"].location != NSNotFound
+
+//适配屏幕宽高比
+#define WidthRatio SCREEN_WIDTH/375.00
+#define HeightRatio SCREEN_HEIGHT/667.00
+
+/** 设置导航标题的字体颜色和大小 */
+#define NavBarTitle(color,font) [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:font,NSForegroundColorAttributeName:color}]
+
+/*设置字体的粗细和大小**/
+#define FontThin(size) [UIFont systemFontOfSize:size]
+#define FontRough(size) [UIFont boldSystemFontOfSize:size]
+
+/*设置随机颜色**/
+#define Arc4randomColorWithRGB [UIColor colorWithRed:(arc4random()%256)/255.0 green:(arc4random()%256)/255.0 blue:(arc4random()%256)/255.0 alpha:1.0f]
+
+/*设置RGB颜色**/
+#define ColorWithRGB(Red,Green,Blue) [UIColor colorWithRed:Red/255.0 green:Green/255.0 blue:Blue/255.0 alpha:1.0f]
+
+/* 一段文字在父视图上的高度**/
+#define ceilToTextHeight(Text,SuperViewWidth,FontSize) [Text boundingRectWithSize:CGSizeMake(SuperViewWidth, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:FontSize]} context:nil]
+
+/* 一段文字在父视图上的宽度**/
+#define ceilToTextWidth(Text,SuperViewHeight,FontSize) [Text boundingRectWithSize:CGSizeMake(MAXFLOAT, SuperViewHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:FontSize]} context:nil].size.width
+
+/* 是否是iPhoneX机型**/
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+/** 导航栏高度 */
+#define navgationBarH ([[UIApplication sharedApplication] statusBarFrame].size.height + 44.0f)
+
+/** tabbar高度 */
+#define tabbarH ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83.0f:49.0f)
+
+/** tabbar底部安全区域高度 */
+#define safeSeraH ([[UIApplication sharedApplication] statusBarFrame].size.height>20?34.0f:0.0f)
+
+/** 弱引用 */
+#define WeakSelf(type) __weak __typeof__(type) weakSelf = type;
+
+/** NSUserdefaults */
+#define ILUserDefaults [NSUserDefaults standardUserDefaults]
+
+/** 通知中心 */
+#define ILNotificationCenter  [NSNotificationCenter defaultCenter]
+
+
+#endif /* PrefixHeader_pch */
