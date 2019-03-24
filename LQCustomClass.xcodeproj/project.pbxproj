@@ -45,6 +45,7 @@
 		DB0C5B0D2244F74300413B1C /* MJRefreshCustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C5B072244F74300413B1C /* MJRefreshCustomHeader.m */; };
 		DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */; };
 		DB0C5B142244F8A900413B1C /* LLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C5B122244F8A900413B1C /* LLToast.m */; };
+		DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5618822477089003EE8CD /* LQGraphCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,8 @@
 		DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBaseViewController.m; sourceTree = "<group>"; };
 		DB0C5B122244F8A900413B1C /* LLToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLToast.m; sourceTree = "<group>"; };
 		DB0C5B132244F8A900413B1C /* LLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLToast.h; sourceTree = "<group>"; };
+		DBA5618822477089003EE8CD /* LQGraphCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGraphCodeView.m; sourceTree = "<group>"; };
+		DBA5618922477089003EE8CD /* LQGraphCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGraphCodeView.h; sourceTree = "<group>"; };
 		FF497355E786C0B55647EC88 /* libPods-LQCustomClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LQCustomClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -211,6 +214,7 @@
 				DB0C5AAA2244F1B600413B1C /* PrefixHeader.pch */,
 				DB0C5B0E2244F7ED00413B1C /* LQBaseViewController.h */,
 				DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */,
+				DBA5618722477089003EE8CD /* graphCode */,
 				DB0C5B112244F8A900413B1C /* 仿AndroidToast控件 */,
 				DB0C5B042244F74300413B1C /* WBMJRefreshHeader */,
 				DB0C5B002244F73900413B1C /* WBSearchView */,
@@ -422,6 +426,15 @@
 			path = "仿AndroidToast控件";
 			sourceTree = "<group>";
 		};
+		DBA5618722477089003EE8CD /* graphCode */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5618822477089003EE8CD /* LQGraphCodeView.m */,
+				DBA5618922477089003EE8CD /* LQGraphCodeView.h */,
+			);
+			path = graphCode;
+			sourceTree = "<group>";
+		};
 		F4FFE70132CB9803F49F7EE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +638,7 @@
 				DB0C5B0D2244F74300413B1C /* MJRefreshCustomHeader.m in Sources */,
 				DB0C5AE72244F69B00413B1C /* WSLScanView.m in Sources */,
 				DB0C5AF62244F70000413B1C /* UIView+MBProgressHUD.m in Sources */,
+				DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */,
 				DB0C5B142244F8A900413B1C /* LLToast.m in Sources */,
 				DB0C5A882244F19F00413B1C /* main.m in Sources */,
 				DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */,
