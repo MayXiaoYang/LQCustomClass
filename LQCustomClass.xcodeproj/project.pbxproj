@@ -46,6 +46,7 @@
 		DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */; };
 		DB0C5B142244F8A900413B1C /* LLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C5B122244F8A900413B1C /* LLToast.m */; };
 		DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5618822477089003EE8CD /* LQGraphCodeView.m */; };
+		DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,8 @@
 		DB0C5B132244F8A900413B1C /* LLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLToast.h; sourceTree = "<group>"; };
 		DBA5618822477089003EE8CD /* LQGraphCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGraphCodeView.m; sourceTree = "<group>"; };
 		DBA5618922477089003EE8CD /* LQGraphCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGraphCodeView.h; sourceTree = "<group>"; };
+		DBBE4A0E224C7CB400D5B398 /* UIButton+Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Location.h"; sourceTree = "<group>"; };
+		DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Location.m"; sourceTree = "<group>"; };
 		FF497355E786C0B55647EC88 /* libPods-LQCustomClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LQCustomClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -265,6 +268,8 @@
 				DB0C5AAE2244F40100413B1C /* LQButton.m */,
 				DB0C5AAD2244F40100413B1C /* UIButton+bgColor.h */,
 				DB0C5AAC2244F40100413B1C /* UIButton+bgColor.m */,
+				DBBE4A0E224C7CB400D5B398 /* UIButton+Location.h */,
+				DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -639,6 +644,7 @@
 				DB0C5AE72244F69B00413B1C /* WSLScanView.m in Sources */,
 				DB0C5AF62244F70000413B1C /* UIView+MBProgressHUD.m in Sources */,
 				DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */,
+				DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */,
 				DB0C5B142244F8A900413B1C /* LLToast.m in Sources */,
 				DB0C5A882244F19F00413B1C /* main.m in Sources */,
 				DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LQGraphCodeView.h"
+#import "UIButton+Location.h"
 @interface ViewController (){
    
 }
@@ -27,6 +28,16 @@
         NSLog(@"graphCodeString---->>>%@",weakSelf.graphCodeView.graphCodeString);
     };
     [self.view addSubview:_graphCodeView];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 100*WidthRatio, 48*WidthRatio);
+    btn.center = self.view.center;
+    [btn setImage:[UIImage imageNamed:@"add3"] forState:UIControlStateNormal];
+    [btn setTitle:@"add" forState:UIControlStateNormal];
+    btn.backgroundColor = [UIColor redColor];
+//    [btn setBtnImageTopAndTextBottomWithSpace:20*WidthRatio];
+    [btn setBtnTextLeftAndImageRightWithSpace:10*WidthRatio];
+    [self.view addSubview:btn];
 }
 
 
