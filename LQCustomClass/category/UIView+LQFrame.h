@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/** 圆角位置的枚举 */
+typedef NS_ENUM(NSInteger , LQSide) {
+    LQSideLeft = 0,
+    LQBSideRight = 1,
+    LQBSideTop = 2,
+    LQBSideBottom = 3,
+    LQSideLeftAndRight
+};
+/** 边框位置的枚举 */
+typedef NS_ENUM(NSInteger, UIViewBorderLineType) {
+    UIViewBorderLineTypeTop,
+    UIViewBorderLineTypeRight,
+    UIViewBorderLineTypeBottom,
+    UIViewBorderLineTypeLeft,
+};
 @interface UIView (LQFrame)
 
 @property (nonatomic, assign)CGFloat x;
@@ -41,5 +55,9 @@
 
 //把view加在window上
 - (void)addToWindow;
+
+- (void)roundSide:(LQSide)side withRadius:(CGFloat )raduis;
+
+-(void)setViewBorderWithcolor:(UIColor *)color border:(float)border type:(UIViewBorderLineType)borderLineType;
 
 @end

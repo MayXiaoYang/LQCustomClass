@@ -125,5 +125,69 @@
 -(CGFloat)height{
     return self.frame.size.height;
 }
+- (void)roundSide:(LQSide)side withRadius:(CGFloat )raduis
+{
+    UIBezierPath *maskPath;
+    
+    if (side == LQSideLeft)
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                         byRoundingCorners:(UIRectCornerTopLeft|UIRectCornerBottomLeft)
+                                               cornerRadii:CGSizeMake(raduis, raduis)];
+    else if (side == LQBSideRight)
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                         byRoundingCorners:(UIRectCornerTopRight|UIRectCornerBottomRight)
+                                               cornerRadii:CGSizeMake(raduis, raduis)];
+    else if (side == LQBSideTop)
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                         byRoundingCorners:(UIRectCornerTopLeft|UIRectCornerTopRight)
+                                               cornerRadii:CGSizeMake(raduis, raduis)];
+    else if (side == LQBSideBottom)
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                         byRoundingCorners:(UIRectCornerBottomLeft|UIRectCornerBottomRight)
+                                               cornerRadii:CGSizeMake(raduis, raduis)];
+    else if (side == LQSideLeftAndRight)
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                         byRoundingCorners:(UIRectCornerTopLeft|UIRectCornerBottomLeft|UIRectCornerTopRight|UIRectCornerBottomRight)
+                                               cornerRadii:CGSizeMake(raduis, raduis)];
+    // Create the shape layer and set its path
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    
+    // Set the newly created shape layer as the mask for the image view's layer
+    self.layer.mask = maskLayer;
+    
+    [self.layer setMasksToBounds:YES];
+}
+
+-(void)setViewBorderWithcolor:(UIColor *)color border:(float)border type:(UIViewBorderLineType)borderLineType{
+    CALayer *lineLayer = [CALayer layer];
+    lineLayer.backgroundColor = color.CGColor;
+    switch (borderLineType) {
+        case UIViewBorderLineTypeTop:{
+            lineLayer.frame = CGRectMake(0, 0, self.frame.size.width, border);
+            break;
+        }
+        case UIViewBorderLineTypeRight:{
+            lineLayer.frame = CGRectMake(self.frame.size.width, 0, border, self.frame.size.height);
+            break;
+        }
+        case UIViewBorderLineTypeBottom:{
+            lineLayer.frame = CGRectMake(0, self.frame.size.height - 1*WidthRatio, self.frame.size.width,border);
+            break;
+        }
+        case UIViewBorderLineTypeLeft:{
+            lineLayer.frame = CGRectMake(0, 0, border, self.frame.size.height);
+            break;
+        }
+            
+        default:{
+            lineLayer.frame = CGRectMake(0, 0, self.frame.size.width-42, border);
+            break;
+        }
+    }
+    
+    [self.layer addSublayer:lineLayer];
+}
 
 @end
