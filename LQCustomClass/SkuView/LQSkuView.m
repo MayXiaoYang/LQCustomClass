@@ -154,7 +154,7 @@
 
     
     UIButton *btn_sure = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn_sure.frame = CGRectMake(15*WidthRatio, CGRectGetMaxY(proNumView.frame)+20*WidthRatio, SCREEN_WIDTH-30*WidthRatio, 40*WidthRatio);
+    btn_sure.frame = CGRectMake(15*WidthRatio, CGRectGetMaxY(proNumView.frame)+5*WidthRatio, SCREEN_WIDTH-30*WidthRatio, 40*WidthRatio);
     btn_sure.layer.masksToBounds = YES;
     btn_sure.layer.cornerRadius = 5*WidthRatio;
     btn_sure.backgroundColor = [UIColor redColor];
@@ -279,6 +279,7 @@
         [self.collectionView reloadData];
     }];
     
+    //处理选中数组中的model数据
     [self getProStndardMsg];
     
 }
@@ -298,7 +299,7 @@
             }
         }
         NSArray *arr_proStandardName = [self.array_selectedModel valueForKeyPath:@"proStandardName"];
-        NSArray *arr_proStandardTitleId = [self.array_dataSource valueForKey:@"proStandardTitleId"];
+        NSArray *arr_proStandardTitleId = [self.array_dataSource valueForKeyPath:@"proStandardTitleId"];
         NSArray *arr_ids = [self.array_selectedModel valueForKeyPath:@"proStandardNameId"];
         NSMutableArray *array_ids = [[NSMutableArray alloc]initWithCapacity:0];
         for (int i = 0; i<arr_proStandardTitleId.count; i++) {
