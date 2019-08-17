@@ -10,6 +10,7 @@
 #import "LQGraphCodeViewController.h"
 #import "LQTextAndImgViewController.h"
 #import "LQSkuViewController.h"
+#import "LQYYTextTestViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 
@@ -33,7 +34,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
   
-    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku"];
+    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku",@"YYText"];
     
     [self.view addSubview:self.tableView];
 }
@@ -61,6 +62,9 @@
     }else if (indexPath.row == 2){
         LQSkuViewController *skuVC = [[LQSkuViewController alloc]init];
         [self.navigationController pushViewController:skuVC animated:YES];
+    }else if (indexPath.row == 3){
+        LQYYTextTestViewController *YYTextVC = [[LQYYTextTestViewController alloc]init];
+        [self.navigationController pushViewController:YYTextVC animated:YES];
     }
 }
 

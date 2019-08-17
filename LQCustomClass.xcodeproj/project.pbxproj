@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,6 +53,9 @@
 		DB17D213229284E100E5F6BC /* LQStandardCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17D212229284E100E5F6BC /* LQStandardCollectionReusableView.m */; };
 		DB17D21622928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17D21522928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m */; };
 		DB17D21922928BAE00E5F6BC /* LQStandardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17D21822928BAE00E5F6BC /* LQStandardModel.m */; };
+		DB185BB422C4C3A300363A02 /* LQYYTextTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB185BB322C4C3A300363A02 /* LQYYTextTestViewController.m */; };
+		DB8F73D022F33AC900AD65D9 /* LQTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */; };
+		DB8F73D122F33AC900AD65D9 /* LQTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */; };
 		DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5618822477089003EE8CD /* LQGraphCodeView.m */; };
 		DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */; };
 		DBD7289F2293AFED0075B2E2 /* proJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBD7289E2293AFED0075B2E2 /* proJson.txt */; };
@@ -170,6 +173,11 @@
 		DB17D21522928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		DB17D21722928BAE00E5F6BC /* LQStandardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQStandardModel.h; sourceTree = "<group>"; };
 		DB17D21822928BAE00E5F6BC /* LQStandardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQStandardModel.m; sourceTree = "<group>"; };
+		DB185BB222C4C3A300363A02 /* LQYYTextTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQYYTextTestViewController.h; sourceTree = "<group>"; };
+		DB185BB322C4C3A300363A02 /* LQYYTextTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQYYTextTestViewController.m; sourceTree = "<group>"; };
+		DB8F73CD22F33AC900AD65D9 /* LQTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTestTableViewCell.h; sourceTree = "<group>"; };
+		DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTestTableViewCell.m; sourceTree = "<group>"; };
+		DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQTestTableViewCell.xib; sourceTree = "<group>"; };
 		DBA5618822477089003EE8CD /* LQGraphCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGraphCodeView.m; sourceTree = "<group>"; };
 		DBA5618922477089003EE8CD /* LQGraphCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGraphCodeView.h; sourceTree = "<group>"; };
 		DBBE4A0E224C7CB400D5B398 /* UIButton+Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Location.h"; sourceTree = "<group>"; };
@@ -246,6 +254,7 @@
 				DB0C5AAA2244F1B600413B1C /* PrefixHeader.pch */,
 				DB0C5B0E2244F7ED00413B1C /* LQBaseViewController.h */,
 				DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */,
+				DB185BB122C4C26500363A02 /* YYTextTestVC */,
 				DB17D20122924FAE00E5F6BC /* SkuView */,
 				DBA5618722477089003EE8CD /* graphCode */,
 				DB0C5B112244F8A900413B1C /* 仿AndroidToast控件 */,
@@ -483,6 +492,18 @@
 			path = SkuView;
 			sourceTree = "<group>";
 		};
+		DB185BB122C4C26500363A02 /* YYTextTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				DB185BB222C4C3A300363A02 /* LQYYTextTestViewController.h */,
+				DB185BB322C4C3A300363A02 /* LQYYTextTestViewController.m */,
+				DB8F73CD22F33AC900AD65D9 /* LQTestTableViewCell.h */,
+				DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */,
+				DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */,
+			);
+			path = YYTextTestVC;
+			sourceTree = "<group>";
+		};
 		DBA5618722477089003EE8CD /* graphCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,7 +535,6 @@
 				DB0C5A712244F19C00413B1C /* Sources */,
 				DB0C5A722244F19C00413B1C /* Frameworks */,
 				DB0C5A732244F19C00413B1C /* Resources */,
-				CDD1C79271FFD66B2BE8D820 /* [CP] Embed Pods Frameworks */,
 				74F1030DAD6F4C851784226C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -613,6 +633,7 @@
 				DBD728A1229404A50075B2E2 /* head.jpg in Resources */,
 				DBD7289F2293AFED0075B2E2 /* proJson.txt in Resources */,
 				DB0C5A822244F19F00413B1C /* Assets.xcassets in Resources */,
+				DB8F73D122F33AC900AD65D9 /* LQTestTableViewCell.xib in Resources */,
 				DB0C5A802244F19D00413B1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -639,17 +660,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		867D7B6BAD848603813C0565 /* [CP] Check Pods Manifest.lock */ = {
@@ -668,21 +688,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDD1C79271FFD66B2BE8D820 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQCustomClass/Pods-LQCustomClass-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -708,9 +713,11 @@
 				DB0C5A882244F19F00413B1C /* main.m in Sources */,
 				DB17D20422924FC800E5F6BC /* LQSkuViewController.m in Sources */,
 				DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */,
+				DB185BB422C4C3A300363A02 /* LQYYTextTestViewController.m in Sources */,
 				DB0C5AEC2244F6DD00413B1C /* UIImage+XSQAlpha.m in Sources */,
 				DB0C5AB02244F40100413B1C /* UIButton+bgColor.m in Sources */,
 				DB0C5B0B2244F74300413B1C /* MJRefreshCustomGifHeader.m in Sources */,
+				DB8F73D022F33AC900AD65D9 /* LQTestTableViewCell.m in Sources */,
 				DB0C5ACB2244F5BE00413B1C /* LoadErrorView.m in Sources */,
 				DB17D1FD229248A400E5F6BC /* LQGraphCodeViewController.m in Sources */,
 				DB0C5AE02244F65700413B1C /* RBRSA.m in Sources */,
