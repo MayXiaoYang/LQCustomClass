@@ -54,6 +54,15 @@
 		DB17D21622928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17D21522928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m */; };
 		DB17D21922928BAE00E5F6BC /* LQStandardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17D21822928BAE00E5F6BC /* LQStandardModel.m */; };
 		DB185BB422C4C3A300363A02 /* LQYYTextTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB185BB322C4C3A300363A02 /* LQYYTextTestViewController.m */; };
+		DB2F4C222307B19800D9363F /* NSDate+LQCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C212307B19800D9363F /* NSDate+LQCalender.m */; };
+		DB2F4C252307D35D00D9363F /* NSString+LQCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C242307D35D00D9363F /* NSString+LQCalender.m */; };
+		DB2F4C282307D45B00D9363F /* LQCalenderDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C272307D45B00D9363F /* LQCalenderDayModel.m */; };
+		DB2F4C2B2307D48C00D9363F /* LQCalenderMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C2A2307D48C00D9363F /* LQCalenderMonthModel.m */; };
+		DB2F4C2E2307D53700D9363F /* LQCalenderHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C2D2307D53700D9363F /* LQCalenderHeadView.m */; };
+		DB2F4C312307D54B00D9363F /* LQCalenderWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C302307D54B00D9363F /* LQCalenderWeekView.m */; };
+		DB2F4C342307D96A00D9363F /* LQCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C332307D96A00D9363F /* LQCalenderView.m */; };
+		DB2F4C372307D9AE00D9363F /* LQCalenderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C362307D9AE00D9363F /* LQCalenderCollectionViewCell.m */; };
+		DB2F4C3A2307E0DC00D9363F /* LQCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C392307E0DC00D9363F /* LQCalendarViewController.m */; };
 		DB8F73D022F33AC900AD65D9 /* LQTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */; };
 		DB8F73D122F33AC900AD65D9 /* LQTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */; };
 		DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5618822477089003EE8CD /* LQGraphCodeView.m */; };
@@ -175,6 +184,24 @@
 		DB17D21822928BAE00E5F6BC /* LQStandardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQStandardModel.m; sourceTree = "<group>"; };
 		DB185BB222C4C3A300363A02 /* LQYYTextTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQYYTextTestViewController.h; sourceTree = "<group>"; };
 		DB185BB322C4C3A300363A02 /* LQYYTextTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQYYTextTestViewController.m; sourceTree = "<group>"; };
+		DB2F4C202307B19800D9363F /* NSDate+LQCalender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LQCalender.h"; sourceTree = "<group>"; };
+		DB2F4C212307B19800D9363F /* NSDate+LQCalender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LQCalender.m"; sourceTree = "<group>"; };
+		DB2F4C232307D35D00D9363F /* NSString+LQCalender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LQCalender.h"; sourceTree = "<group>"; };
+		DB2F4C242307D35D00D9363F /* NSString+LQCalender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LQCalender.m"; sourceTree = "<group>"; };
+		DB2F4C262307D45B00D9363F /* LQCalenderDayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderDayModel.h; sourceTree = "<group>"; };
+		DB2F4C272307D45B00D9363F /* LQCalenderDayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderDayModel.m; sourceTree = "<group>"; };
+		DB2F4C292307D48C00D9363F /* LQCalenderMonthModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderMonthModel.h; sourceTree = "<group>"; };
+		DB2F4C2A2307D48C00D9363F /* LQCalenderMonthModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderMonthModel.m; sourceTree = "<group>"; };
+		DB2F4C2C2307D53700D9363F /* LQCalenderHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderHeadView.h; sourceTree = "<group>"; };
+		DB2F4C2D2307D53700D9363F /* LQCalenderHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderHeadView.m; sourceTree = "<group>"; };
+		DB2F4C2F2307D54B00D9363F /* LQCalenderWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderWeekView.h; sourceTree = "<group>"; };
+		DB2F4C302307D54B00D9363F /* LQCalenderWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderWeekView.m; sourceTree = "<group>"; };
+		DB2F4C322307D96A00D9363F /* LQCalenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderView.h; sourceTree = "<group>"; };
+		DB2F4C332307D96A00D9363F /* LQCalenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderView.m; sourceTree = "<group>"; };
+		DB2F4C352307D9AE00D9363F /* LQCalenderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalenderCollectionViewCell.h; sourceTree = "<group>"; };
+		DB2F4C362307D9AE00D9363F /* LQCalenderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderCollectionViewCell.m; sourceTree = "<group>"; };
+		DB2F4C382307E0DC00D9363F /* LQCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalendarViewController.h; sourceTree = "<group>"; };
+		DB2F4C392307E0DC00D9363F /* LQCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalendarViewController.m; sourceTree = "<group>"; };
 		DB8F73CD22F33AC900AD65D9 /* LQTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTestTableViewCell.h; sourceTree = "<group>"; };
 		DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTestTableViewCell.m; sourceTree = "<group>"; };
 		DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQTestTableViewCell.xib; sourceTree = "<group>"; };
@@ -254,6 +281,7 @@
 				DB0C5AAA2244F1B600413B1C /* PrefixHeader.pch */,
 				DB0C5B0E2244F7ED00413B1C /* LQBaseViewController.h */,
 				DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */,
+				DB2F4C1F2307B0E200D9363F /* LQCalenderView */,
 				DB185BB122C4C26500363A02 /* YYTextTestVC */,
 				DB17D20122924FAE00E5F6BC /* SkuView */,
 				DBA5618722477089003EE8CD /* graphCode */,
@@ -504,6 +532,31 @@
 			path = YYTextTestVC;
 			sourceTree = "<group>";
 		};
+		DB2F4C1F2307B0E200D9363F /* LQCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				DB2F4C202307B19800D9363F /* NSDate+LQCalender.h */,
+				DB2F4C212307B19800D9363F /* NSDate+LQCalender.m */,
+				DB2F4C232307D35D00D9363F /* NSString+LQCalender.h */,
+				DB2F4C242307D35D00D9363F /* NSString+LQCalender.m */,
+				DB2F4C262307D45B00D9363F /* LQCalenderDayModel.h */,
+				DB2F4C272307D45B00D9363F /* LQCalenderDayModel.m */,
+				DB2F4C292307D48C00D9363F /* LQCalenderMonthModel.h */,
+				DB2F4C2A2307D48C00D9363F /* LQCalenderMonthModel.m */,
+				DB2F4C2C2307D53700D9363F /* LQCalenderHeadView.h */,
+				DB2F4C2D2307D53700D9363F /* LQCalenderHeadView.m */,
+				DB2F4C2F2307D54B00D9363F /* LQCalenderWeekView.h */,
+				DB2F4C302307D54B00D9363F /* LQCalenderWeekView.m */,
+				DB2F4C352307D9AE00D9363F /* LQCalenderCollectionViewCell.h */,
+				DB2F4C362307D9AE00D9363F /* LQCalenderCollectionViewCell.m */,
+				DB2F4C322307D96A00D9363F /* LQCalenderView.h */,
+				DB2F4C332307D96A00D9363F /* LQCalenderView.m */,
+				DB2F4C382307E0DC00D9363F /* LQCalendarViewController.h */,
+				DB2F4C392307E0DC00D9363F /* LQCalendarViewController.m */,
+			);
+			path = LQCalenderView;
+			sourceTree = "<group>";
+		};
 		DBA5618722477089003EE8CD /* graphCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -698,6 +751,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0C5A7D2244F19D00413B1C /* ViewController.m in Sources */,
+				DB2F4C342307D96A00D9363F /* LQCalenderView.m in Sources */,
 				DB17D213229284E100E5F6BC /* LQStandardCollectionReusableView.m in Sources */,
 				DB0C5ADF2244F65700413B1C /* AESCipher.m in Sources */,
 				DB0C5AC32244F53000413B1C /* NSDateFormatter+LQFormatter.m in Sources */,
@@ -709,10 +763,13 @@
 				DB0C5AF62244F70000413B1C /* UIView+MBProgressHUD.m in Sources */,
 				DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */,
 				DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */,
+				DB2F4C3A2307E0DC00D9363F /* LQCalendarViewController.m in Sources */,
 				DB0C5B142244F8A900413B1C /* LLToast.m in Sources */,
+				DB2F4C282307D45B00D9363F /* LQCalenderDayModel.m in Sources */,
 				DB0C5A882244F19F00413B1C /* main.m in Sources */,
 				DB17D20422924FC800E5F6BC /* LQSkuViewController.m in Sources */,
 				DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */,
+				DB2F4C2E2307D53700D9363F /* LQCalenderHeadView.m in Sources */,
 				DB185BB422C4C3A300363A02 /* LQYYTextTestViewController.m in Sources */,
 				DB0C5AEC2244F6DD00413B1C /* UIImage+XSQAlpha.m in Sources */,
 				DB0C5AB02244F40100413B1C /* UIButton+bgColor.m in Sources */,
@@ -726,21 +783,26 @@
 				DB0C5B032244F73A00413B1C /* TSHeadSearchView.m in Sources */,
 				DB17D21622928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				DB0C5AE82244F69B00413B1C /* WSLNativeScanTool.m in Sources */,
+				DB2F4C222307B19800D9363F /* NSDate+LQCalender.m in Sources */,
 				DB0C5ACA2244F5BE00413B1C /* UIButton+ClipLayer.m in Sources */,
 				DB0C5B0C2244F74300413B1C /* MJRefreshCustomFooter.m in Sources */,
 				DB0C5AD32244F63F00413B1C /* LQCustomControl.m in Sources */,
 				DB0C5A7A2244F19C00413B1C /* AppDelegate.m in Sources */,
+				DB2F4C2B2307D48C00D9363F /* LQCalenderMonthModel.m in Sources */,
 				DB0C5AC12244F53000413B1C /* UIColor+Hex.m in Sources */,
 				DB0C5AF02244F6EF00413B1C /* ILNaviagtionController.m in Sources */,
 				DB17D20022924B5000E5F6BC /* LQTextAndImgViewController.m in Sources */,
 				DB0C5AC42244F53000413B1C /* UIView+LQFrame.m in Sources */,
 				DB0C5AB12244F40100413B1C /* LQButton.m in Sources */,
 				DB0C5AC02244F53000413B1C /* NSDate+LQDate.m in Sources */,
+				DB2F4C252307D35D00D9363F /* NSString+LQCalender.m in Sources */,
 				DB0C5AC22244F53000413B1C /* UITableViewCell+LQAnimation.m in Sources */,
+				DB2F4C312307D54B00D9363F /* LQCalenderWeekView.m in Sources */,
 				DB0C5AFB2244F71D00413B1C /* LQAleartView.m in Sources */,
 				DB17D21922928BAE00E5F6BC /* LQStandardModel.m in Sources */,
 				DB0C5AFF2244F72600413B1C /* TSCustomActionSheetView.m in Sources */,
 				DB0C5ACF2244F63600413B1C /* LQClearCacheTool.m in Sources */,
+				DB2F4C372307D9AE00D9363F /* LQCalenderCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

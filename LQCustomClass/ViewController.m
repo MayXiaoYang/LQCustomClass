@@ -11,6 +11,7 @@
 #import "LQTextAndImgViewController.h"
 #import "LQSkuViewController.h"
 #import "LQYYTextTestViewController.h"
+#import "LQCalendarViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 
@@ -34,7 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
   
-    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku",@"YYText"];
+    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku",@"YYText",@"日历"];
     
     [self.view addSubview:self.tableView];
 }
@@ -65,6 +66,9 @@
     }else if (indexPath.row == 3){
         LQYYTextTestViewController *YYTextVC = [[LQYYTextTestViewController alloc]init];
         [self.navigationController pushViewController:YYTextVC animated:YES];
+    }else if (indexPath.row == 4){
+        LQCalendarViewController *calendarVC = [[LQCalendarViewController alloc]init];
+        [self.navigationController pushViewController:calendarVC animated:YES];
     }
 }
 
