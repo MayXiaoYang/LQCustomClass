@@ -63,9 +63,22 @@
 		DB2F4C342307D96A00D9363F /* LQCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C332307D96A00D9363F /* LQCalenderView.m */; };
 		DB2F4C372307D9AE00D9363F /* LQCalenderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C362307D9AE00D9363F /* LQCalenderCollectionViewCell.m */; };
 		DB2F4C3A2307E0DC00D9363F /* LQCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F4C392307E0DC00D9363F /* LQCalendarViewController.m */; };
+		DB6D79F1230A3F4200D001DB /* LQAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D79F0230A3F4200D001DB /* LQAddressView.m */; };
+		DB6D79F4230A402F00D001DB /* LQProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D79F3230A402F00D001DB /* LQProvinceModel.m */; };
+		DB6D79F7230A404800D001DB /* LQCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D79F6230A404800D001DB /* LQCityModel.m */; };
+		DB6D79FA230A446200D001DB /* LQAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D79F9230A446200D001DB /* LQAddressViewController.m */; };
+		DB6D79FC230A45BF00D001DB /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6D79FB230A45BF00D001DB /* city.json */; };
+		DB6D79FF230A4D1400D001DB /* LQAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D79FE230A4D1400D001DB /* LQAreaModel.m */; };
+		DB6D7A02230AA3AD00D001DB /* LQAddressScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D7A01230AA3AD00D001DB /* LQAddressScrollView.m */; };
 		DB8F73D022F33AC900AD65D9 /* LQTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */; };
 		DB8F73D122F33AC900AD65D9 /* LQTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */; };
 		DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5618822477089003EE8CD /* LQGraphCodeView.m */; };
+		DBB73B6F230BCDBF00A3F28E /* LQXibFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB73B6D230BCDBF00A3F28E /* LQXibFaceViewController.m */; };
+		DBB73B70230BCDBF00A3F28E /* LQXibFaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB73B6E230BCDBF00A3F28E /* LQXibFaceViewController.xib */; };
+		DBB73B73230BE08100A3F28E /* LQCustomRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB73B72230BE08100A3F28E /* LQCustomRefreshFooter.m */; };
+		DBB73B77230BE15500A3F28E /* LQXibTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB73B75230BE15500A3F28E /* LQXibTestTableViewCell.m */; };
+		DBB73B78230BE15500A3F28E /* LQXibTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB73B76230BE15500A3F28E /* LQXibTestTableViewCell.xib */; };
+		DBB73B7B230BEE4600A3F28E /* LQXibTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB73B7A230BEE4600A3F28E /* LQXibTestModel.m */; };
 		DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */; };
 		DBD7289F2293AFED0075B2E2 /* proJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBD7289E2293AFED0075B2E2 /* proJson.txt */; };
 		DBD728A1229404A50075B2E2 /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBD728A0229404A50075B2E2 /* head.jpg */; };
@@ -202,11 +215,34 @@
 		DB2F4C362307D9AE00D9363F /* LQCalenderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalenderCollectionViewCell.m; sourceTree = "<group>"; };
 		DB2F4C382307E0DC00D9363F /* LQCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCalendarViewController.h; sourceTree = "<group>"; };
 		DB2F4C392307E0DC00D9363F /* LQCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCalendarViewController.m; sourceTree = "<group>"; };
+		DB6D79EF230A3F4200D001DB /* LQAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAddressView.h; sourceTree = "<group>"; };
+		DB6D79F0230A3F4200D001DB /* LQAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQAddressView.m; sourceTree = "<group>"; };
+		DB6D79F2230A402F00D001DB /* LQProvinceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProvinceModel.h; sourceTree = "<group>"; };
+		DB6D79F3230A402F00D001DB /* LQProvinceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProvinceModel.m; sourceTree = "<group>"; };
+		DB6D79F5230A404800D001DB /* LQCityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCityModel.h; sourceTree = "<group>"; };
+		DB6D79F6230A404800D001DB /* LQCityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCityModel.m; sourceTree = "<group>"; };
+		DB6D79F8230A446200D001DB /* LQAddressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAddressViewController.h; sourceTree = "<group>"; };
+		DB6D79F9230A446200D001DB /* LQAddressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQAddressViewController.m; sourceTree = "<group>"; };
+		DB6D79FB230A45BF00D001DB /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		DB6D79FD230A4D1400D001DB /* LQAreaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAreaModel.h; sourceTree = "<group>"; };
+		DB6D79FE230A4D1400D001DB /* LQAreaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQAreaModel.m; sourceTree = "<group>"; };
+		DB6D7A00230AA3AD00D001DB /* LQAddressScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAddressScrollView.h; sourceTree = "<group>"; };
+		DB6D7A01230AA3AD00D001DB /* LQAddressScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQAddressScrollView.m; sourceTree = "<group>"; };
 		DB8F73CD22F33AC900AD65D9 /* LQTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTestTableViewCell.h; sourceTree = "<group>"; };
 		DB8F73CE22F33AC900AD65D9 /* LQTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTestTableViewCell.m; sourceTree = "<group>"; };
 		DB8F73CF22F33AC900AD65D9 /* LQTestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQTestTableViewCell.xib; sourceTree = "<group>"; };
 		DBA5618822477089003EE8CD /* LQGraphCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQGraphCodeView.m; sourceTree = "<group>"; };
 		DBA5618922477089003EE8CD /* LQGraphCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQGraphCodeView.h; sourceTree = "<group>"; };
+		DBB73B6C230BCDBF00A3F28E /* LQXibFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQXibFaceViewController.h; sourceTree = "<group>"; };
+		DBB73B6D230BCDBF00A3F28E /* LQXibFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQXibFaceViewController.m; sourceTree = "<group>"; };
+		DBB73B6E230BCDBF00A3F28E /* LQXibFaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQXibFaceViewController.xib; sourceTree = "<group>"; };
+		DBB73B71230BE08100A3F28E /* LQCustomRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQCustomRefreshFooter.h; sourceTree = "<group>"; };
+		DBB73B72230BE08100A3F28E /* LQCustomRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCustomRefreshFooter.m; sourceTree = "<group>"; };
+		DBB73B74230BE15500A3F28E /* LQXibTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQXibTestTableViewCell.h; sourceTree = "<group>"; };
+		DBB73B75230BE15500A3F28E /* LQXibTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQXibTestTableViewCell.m; sourceTree = "<group>"; };
+		DBB73B76230BE15500A3F28E /* LQXibTestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQXibTestTableViewCell.xib; sourceTree = "<group>"; };
+		DBB73B79230BEE4600A3F28E /* LQXibTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQXibTestModel.h; sourceTree = "<group>"; };
+		DBB73B7A230BEE4600A3F28E /* LQXibTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQXibTestModel.m; sourceTree = "<group>"; };
 		DBBE4A0E224C7CB400D5B398 /* UIButton+Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Location.h"; sourceTree = "<group>"; };
 		DBBE4A0F224C7CB400D5B398 /* UIButton+Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Location.m"; sourceTree = "<group>"; };
 		DBD7289E2293AFED0075B2E2 /* proJson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = proJson.txt; sourceTree = "<group>"; };
@@ -281,6 +317,8 @@
 				DB0C5AAA2244F1B600413B1C /* PrefixHeader.pch */,
 				DB0C5B0E2244F7ED00413B1C /* LQBaseViewController.h */,
 				DB0C5B0F2244F7ED00413B1C /* LQBaseViewController.m */,
+				DBB73B6B230BCD7400A3F28E /* XibTest */,
+				DB6D79EE230A3F0000D001DB /* LQAddressView */,
 				DB2F4C1F2307B0E200D9363F /* LQCalenderView */,
 				DB185BB122C4C26500363A02 /* YYTextTestVC */,
 				DB17D20122924FAE00E5F6BC /* SkuView */,
@@ -487,6 +525,8 @@
 				DB0C5B082244F74300413B1C /* MJRefreshCustomGifHeader.h */,
 				DB0C5B092244F74300413B1C /* MJRefreshCustomHeader.h */,
 				DB0C5B0A2244F74300413B1C /* MJRefreshCustomFooter.h */,
+				DBB73B71230BE08100A3F28E /* LQCustomRefreshFooter.h */,
+				DBB73B72230BE08100A3F28E /* LQCustomRefreshFooter.m */,
 			);
 			path = WBMJRefreshHeader;
 			sourceTree = "<group>";
@@ -557,6 +597,26 @@
 			path = LQCalenderView;
 			sourceTree = "<group>";
 		};
+		DB6D79EE230A3F0000D001DB /* LQAddressView */ = {
+			isa = PBXGroup;
+			children = (
+				DB6D79FB230A45BF00D001DB /* city.json */,
+				DB6D79EF230A3F4200D001DB /* LQAddressView.h */,
+				DB6D79F0230A3F4200D001DB /* LQAddressView.m */,
+				DB6D79F2230A402F00D001DB /* LQProvinceModel.h */,
+				DB6D79F3230A402F00D001DB /* LQProvinceModel.m */,
+				DB6D79F5230A404800D001DB /* LQCityModel.h */,
+				DB6D79F6230A404800D001DB /* LQCityModel.m */,
+				DB6D79FD230A4D1400D001DB /* LQAreaModel.h */,
+				DB6D79FE230A4D1400D001DB /* LQAreaModel.m */,
+				DB6D79F8230A446200D001DB /* LQAddressViewController.h */,
+				DB6D79F9230A446200D001DB /* LQAddressViewController.m */,
+				DB6D7A00230AA3AD00D001DB /* LQAddressScrollView.h */,
+				DB6D7A01230AA3AD00D001DB /* LQAddressScrollView.m */,
+			);
+			path = LQAddressView;
+			sourceTree = "<group>";
+		};
 		DBA5618722477089003EE8CD /* graphCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +626,21 @@
 				DB17D1FC229248A400E5F6BC /* LQGraphCodeViewController.m */,
 			);
 			path = graphCode;
+			sourceTree = "<group>";
+		};
+		DBB73B6B230BCD7400A3F28E /* XibTest */ = {
+			isa = PBXGroup;
+			children = (
+				DBB73B6C230BCDBF00A3F28E /* LQXibFaceViewController.h */,
+				DBB73B6D230BCDBF00A3F28E /* LQXibFaceViewController.m */,
+				DBB73B6E230BCDBF00A3F28E /* LQXibFaceViewController.xib */,
+				DBB73B74230BE15500A3F28E /* LQXibTestTableViewCell.h */,
+				DBB73B75230BE15500A3F28E /* LQXibTestTableViewCell.m */,
+				DBB73B76230BE15500A3F28E /* LQXibTestTableViewCell.xib */,
+				DBB73B79230BEE4600A3F28E /* LQXibTestModel.h */,
+				DBB73B7A230BEE4600A3F28E /* LQXibTestModel.m */,
+			);
+			path = XibTest;
 			sourceTree = "<group>";
 		};
 		F4FFE70132CB9803F49F7EE7 /* Pods */ = {
@@ -684,8 +759,11 @@
 			files = (
 				DB0C5A852244F19F00413B1C /* LaunchScreen.storyboard in Resources */,
 				DBD728A1229404A50075B2E2 /* head.jpg in Resources */,
+				DBB73B70230BCDBF00A3F28E /* LQXibFaceViewController.xib in Resources */,
 				DBD7289F2293AFED0075B2E2 /* proJson.txt in Resources */,
+				DBB73B78230BE15500A3F28E /* LQXibTestTableViewCell.xib in Resources */,
 				DB0C5A822244F19F00413B1C /* Assets.xcassets in Resources */,
+				DB6D79FC230A45BF00D001DB /* city.json in Resources */,
 				DB8F73D122F33AC900AD65D9 /* LQTestTableViewCell.xib in Resources */,
 				DB0C5A802244F19D00413B1C /* Main.storyboard in Resources */,
 			);
@@ -750,6 +828,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB73B77230BE15500A3F28E /* LQXibTestTableViewCell.m in Sources */,
+				DB6D79F1230A3F4200D001DB /* LQAddressView.m in Sources */,
 				DB0C5A7D2244F19D00413B1C /* ViewController.m in Sources */,
 				DB2F4C342307D96A00D9363F /* LQCalenderView.m in Sources */,
 				DB17D213229284E100E5F6BC /* LQStandardCollectionReusableView.m in Sources */,
@@ -764,6 +844,7 @@
 				DBA5618A22477089003EE8CD /* LQGraphCodeView.m in Sources */,
 				DBBE4A10224C7CB400D5B398 /* UIButton+Location.m in Sources */,
 				DB2F4C3A2307E0DC00D9363F /* LQCalendarViewController.m in Sources */,
+				DB6D79F4230A402F00D001DB /* LQProvinceModel.m in Sources */,
 				DB0C5B142244F8A900413B1C /* LLToast.m in Sources */,
 				DB2F4C282307D45B00D9363F /* LQCalenderDayModel.m in Sources */,
 				DB0C5A882244F19F00413B1C /* main.m in Sources */,
@@ -771,8 +852,10 @@
 				DB0C5B102244F7ED00413B1C /* LQBaseViewController.m in Sources */,
 				DB2F4C2E2307D53700D9363F /* LQCalenderHeadView.m in Sources */,
 				DB185BB422C4C3A300363A02 /* LQYYTextTestViewController.m in Sources */,
+				DB6D79FF230A4D1400D001DB /* LQAreaModel.m in Sources */,
 				DB0C5AEC2244F6DD00413B1C /* UIImage+XSQAlpha.m in Sources */,
 				DB0C5AB02244F40100413B1C /* UIButton+bgColor.m in Sources */,
+				DBB73B6F230BCDBF00A3F28E /* LQXibFaceViewController.m in Sources */,
 				DB0C5B0B2244F74300413B1C /* MJRefreshCustomGifHeader.m in Sources */,
 				DB8F73D022F33AC900AD65D9 /* LQTestTableViewCell.m in Sources */,
 				DB0C5ACB2244F5BE00413B1C /* LoadErrorView.m in Sources */,
@@ -784,9 +867,11 @@
 				DB17D21622928B2000E5F6BC /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				DB0C5AE82244F69B00413B1C /* WSLNativeScanTool.m in Sources */,
 				DB2F4C222307B19800D9363F /* NSDate+LQCalender.m in Sources */,
+				DB6D7A02230AA3AD00D001DB /* LQAddressScrollView.m in Sources */,
 				DB0C5ACA2244F5BE00413B1C /* UIButton+ClipLayer.m in Sources */,
 				DB0C5B0C2244F74300413B1C /* MJRefreshCustomFooter.m in Sources */,
 				DB0C5AD32244F63F00413B1C /* LQCustomControl.m in Sources */,
+				DB6D79F7230A404800D001DB /* LQCityModel.m in Sources */,
 				DB0C5A7A2244F19C00413B1C /* AppDelegate.m in Sources */,
 				DB2F4C2B2307D48C00D9363F /* LQCalenderMonthModel.m in Sources */,
 				DB0C5AC12244F53000413B1C /* UIColor+Hex.m in Sources */,
@@ -795,6 +880,7 @@
 				DB0C5AC42244F53000413B1C /* UIView+LQFrame.m in Sources */,
 				DB0C5AB12244F40100413B1C /* LQButton.m in Sources */,
 				DB0C5AC02244F53000413B1C /* NSDate+LQDate.m in Sources */,
+				DBB73B73230BE08100A3F28E /* LQCustomRefreshFooter.m in Sources */,
 				DB2F4C252307D35D00D9363F /* NSString+LQCalender.m in Sources */,
 				DB0C5AC22244F53000413B1C /* UITableViewCell+LQAnimation.m in Sources */,
 				DB2F4C312307D54B00D9363F /* LQCalenderWeekView.m in Sources */,
@@ -802,7 +888,9 @@
 				DB17D21922928BAE00E5F6BC /* LQStandardModel.m in Sources */,
 				DB0C5AFF2244F72600413B1C /* TSCustomActionSheetView.m in Sources */,
 				DB0C5ACF2244F63600413B1C /* LQClearCacheTool.m in Sources */,
+				DBB73B7B230BEE4600A3F28E /* LQXibTestModel.m in Sources */,
 				DB2F4C372307D9AE00D9363F /* LQCalenderCollectionViewCell.m in Sources */,
+				DB6D79FA230A446200D001DB /* LQAddressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

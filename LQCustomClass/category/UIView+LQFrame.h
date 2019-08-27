@@ -28,6 +28,8 @@ typedef NS_ENUM(NSInteger, UIViewBorderLineType) {
 @property (nonatomic, assign)CGFloat y;
 @property (nonatomic, assign)CGFloat width;
 @property (nonatomic, assign)CGFloat height;
+@property (nonatomic, assign)CGFloat centerX;
+@property (nonatomic, assign)CGFloat centerY;
 
 ////摇动动画
 -(void)startShakeAnimation;

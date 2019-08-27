@@ -118,7 +118,6 @@
     self.calendarHeader.dateStr = [NSString stringWithFormat:@"%ld年%ld月",monthModel.year,monthModel.month];
     
     NSInteger firstWeekday = monthModel.firstWeekday;
-    NSLog(@"monthModel.firstWeekday----->>>%ld",monthModel.firstWeekday);
     NSInteger totalDays = monthModel.totalDays;
     
     for (int i = 0; i <42; i++) {

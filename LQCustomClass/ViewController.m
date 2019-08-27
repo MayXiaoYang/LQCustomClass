@@ -12,6 +12,8 @@
 #import "LQSkuViewController.h"
 #import "LQYYTextTestViewController.h"
 #import "LQCalendarViewController.h"
+#import "LQAddressViewController.h"
+#import "LQXibFaceViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 
@@ -35,7 +37,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
   
-    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku",@"YYText",@"日历"];
+    self.array_titles = @[@"本地验证码",@"按钮（文字+图片）",@"商品规格Sku",@"YYText",@"日历",@"地址选址",@"Xib测试"];
     
     [self.view addSubview:self.tableView];
 }
@@ -69,6 +71,12 @@
     }else if (indexPath.row == 4){
         LQCalendarViewController *calendarVC = [[LQCalendarViewController alloc]init];
         [self.navigationController pushViewController:calendarVC animated:YES];
+    }else if (indexPath.row == 5){
+        LQAddressViewController *addressVC = [[LQAddressViewController alloc]init];
+        [self.navigationController pushViewController:addressVC animated:YES];
+    }else if (indexPath.row == 6){
+        LQXibFaceViewController *xibVC = [[LQXibFaceViewController alloc]initWithNibName:@"LQXibFaceViewController" bundle:nil];
+        [self.navigationController pushViewController:xibVC animated:YES];
     }
 }
 
